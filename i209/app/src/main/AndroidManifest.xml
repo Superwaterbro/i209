@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anan.AAChartCore.ChartsDemo.MainContent">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- 百度地图 需要的权限 -->
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- 百度地图API所需权限 -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 访问精确位置的权限 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CalleditActivity"></activity>
+        <activity android:name=".CallshowActivity" />
+        <activity android:name=".CallActivity" />
+        <activity android:name=".CallDelete" />
+        <activity android:name="com.example.anan.AAChartCore.ChartsDemo.AdditionalContent.ChangepowerActivity"></activity>
+        <activity android:name="com.example.anan.AAChartCore.ChartsDemo.AdditionalContent.ChangecandyActivity" />
+        <activity android:name="com.example.anan.AAChartCore.ChartsDemo.AdditionalContent.PowerChartActivity" />
+        <activity android:name="com.example.anan.AAChartCore.ChartsDemo.AdditionalContent.CandyChartActivity" />
+        <activity android:name=".AlarmEditActivity" />
+        <activity android:name=".AlarmShowActivity" />
+        <activity android:name=".DeleteAlarmActivity" />
+        <activity android:name=".BirthShowActivity"/>
+        <activity android:name=".BirthEditActivity"/>
+        <activity android:name=".BirthDeleteActivity"/>
+        <activity android:name=".RingActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PowerecordActivity" />
+        <activity android:name=".CandyrecordActivity" />
+        <activity android:name=".RecordActivity" />
+        <activity android:name=".PowerActivity" />
+        <activity android:name=".CandyActivity" />
+        <activity android:name=".TemActivity" />
+        <activity android:name=".JianActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".CustomStyleChartActivity" />
+        <activity android:name="com.example.anan.AAChartCore.ChartsDemo.AdditionalContent.ScrollableChartActivity" />
+        <activity android:name="com.example.anan.AAChartCore.ChartsDemo.AdditionalContent.DrawChartWithAAOptionsActivity" />
+        <activity android:name="com.example.anan.AAChartCore.ChartsDemo.AdditionalContent.ScrollingUpdateDataActivity" />
+
+        <activity android:name=".MainActivity1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 百度地图API KEY -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value = "5Kthp7YGaVpxOMjMz7Lq1GX7yo2hpWCM"
+            />
+
+        <!-- 百度定位服务 -->
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote"></service>
+
+        <activity android:name=".GuideActivity"></activity>
+        <receiver android:name=".AlarmReceiver">
+            <intent-filter>
+                <action android:name="com.example.AAChartCore-master.Ring" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".SpecialChartActivity"
+            android:label="@string/title_activity_special_chart"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Shouye2Activity"
+            android:label="爱慕家">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+
+</manifest>

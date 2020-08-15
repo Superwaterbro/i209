@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:minHeight="60dp">
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_centerVertical="true"
+
+        tools:text="2020/8/8"
+
+        android:id="@+id/birth_time"
+
+        android:textSize="20dp"
+
+        android:textColor="@color/black"
+
+        tools:textColor="@color/black"/>
+
+
+
+
+    <TextView
+
+        android:id="@+id/birth_lable"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:textColor="@color/black"
+
+        tools:textColor="@color/black"
+
+        android:layout_below="@id/birth_time"
+
+        android:layout_marginTop="16dp"
+
+        android:textSize="10dp"
+
+        android:text="生日" />
+
+
+
+
+
+    <TextView
+
+        tools:text="on"
+
+        android:id="@+id/birth_status"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentRight="true"
+
+        android:layout_centerVertical="true"
+
+        android:textSize="15dp"
+
+        android:textColor="@color/black"
+
+        tools:textColor="@color/black"/>
+
+</RelativeLayout>

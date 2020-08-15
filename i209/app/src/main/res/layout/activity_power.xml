@@ -1,0 +1,143 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width ="fill_parent"
+        android:layout_height ="0dp"
+        android:layout_weight="20"
+        android:background="@drawable/xueya"
+        android:orientation ="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="400dp"
+            android:layout_height="133dp"
+            android:text=" "
+            android:textSize="20dp"
+            tools:layout_editor_absoluteY="110dp" />
+
+        <LinearLayout
+            android:layout_width ="fill_parent"
+            android:layout_height ="50dp"
+            android:orientation ="horizontal">
+
+            <TextView
+                android:id="@+id/textdiya"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="收缩压"
+                android:textSize="20dp"
+                tools:layout_editor_absoluteY="110dp" />
+
+            <EditText
+                android:id="@+id/edt_power"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/white"
+                android:digits="0123456789."
+                android:gravity="center_vertical"
+                android:inputType="numberDecimal"
+                android:textColor="@color/grey_light"
+                android:textSize="30sp">
+
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width ="fill_parent"
+            android:layout_height ="40dp"
+            android:orientation ="horizontal">
+
+            <TextView
+                android:id="@+id/textgaoya"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="舒张压"
+                android:textSize="20dp"
+                tools:layout_editor_absoluteY="110dp" />
+
+            <EditText
+                android:id="@+id/edt_power2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/white"
+                android:digits="0123456789."
+                android:textColor="@color/grey_light"
+                android:gravity="center_vertical"
+                android:inputType="numberDecimal"
+                android:textSize="30sp">
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="确定"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|start|left"
+            android:background="@drawable/step"
+            android:text="          血压测量步骤"
+            android:textStyle="italic"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|start|left"
+            android:background="@drawable/tip"
+            android:text="          血压测量须知"
+            android:textStyle="italic"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|start|left"
+            android:background="@drawable/abnormal"
+            android:text="          血压异常措施"
+            android:textStyle="italic"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/buttonpower"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|start|left"
+            android:background="@drawable/jilu"
+            android:text="          血压报告"
+            android:textStyle="italic"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/buttonpowerchart"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|start|left"
+            android:background="@drawable/quxian"
+            android:text="          血压趋势"
+            android:textStyle="italic"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+

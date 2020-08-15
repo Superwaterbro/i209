@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+        android:background="@drawable/jiance"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:id="@+id/text_dashboard"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:text=" "
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|start|left"
+            android:background="@drawable/jiancha"
+            android:text="           健康检查"
+            android:textStyle="italic"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|start|left"
+            android:background="@drawable/tixing"
+            android:text="           健康提醒"
+            android:textStyle="italic"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|start|left"
+            android:background="@drawable/jilu"
+            android:text="           健康记录"
+            android:textStyle="italic"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

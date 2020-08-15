@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="title_activity_common_chart">CommonChartActivity</string>
+    <string name="title_activity_special_chart">SpecialChartActivity</string>
+    <string name="title_activity_shouye2">Shouye2Activity</string>
+
+    <string name="app_name">养老生活</string>
+    <string name="title_home1">首页</string>
+    <string name="title_dashboard1">健康监督</string>
+    <string name="title_notifications1">生活服务</string>
+    <string name="title_activity_change">ChangeActivity</string>
+    <string name="title_home">体温</string>
+    <string name="title_dashboard">血糖</string>
+    <string name="title_notifications">血压</string>
+</resources>

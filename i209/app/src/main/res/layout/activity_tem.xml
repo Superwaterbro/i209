@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width ="fill_parent"
+        android:layout_height ="0dp"
+        android:layout_weight="20"
+        android:background="@drawable/tiwen3"
+        android:orientation ="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="400dp"
+            android:layout_height="140dp"
+            android:text=" "
+            android:textSize="20dp"
+
+            tools:layout_editor_absoluteY="110dp" />
+
+        <EditText
+            android:id="@+id/edt_amount"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background ="@color/white"
+            android:digits="0123456789."
+            android:textColor="@color/grey_light"
+            android:gravity="center_vertical"
+            android:inputType="numberDecimal"
+            android:textSize="30sp">
+            <requestFocus/>
+        </EditText>
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="确定" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|start|left"
+            android:background="@drawable/tip"
+            android:text="          体温测量须知"
+            android:textStyle="italic"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|start|left"
+            android:background="@drawable/abnormal"
+            android:text="          体温异常措施"
+            android:textStyle="italic"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/buttonlist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|start|left"
+            android:background="@drawable/jilu"
+            android:text="          体温记录"
+            android:textStyle="italic"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/buttonchart"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|start|left"
+            android:background="@drawable/quxian"
+            android:text="          体温趋势"
+            android:textStyle="italic"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

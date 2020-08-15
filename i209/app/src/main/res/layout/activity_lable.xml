@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="horizontal"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:minHeight="60dp">
+
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+
+
+        <TextView
+
+            android:id="@+id/lable_name"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="50dp"
+
+            android:layout_centerVertical="true"
+
+            tools:textColor="@color/black"
+
+            tools:text="标签"
+            android:gravity="center"
+
+            android:textSize="20dp"
+
+            android:textColor="@color/black"/>
+
+
+
+        <EditText
+
+            android:id="@+id/edt_content"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="50dp"
+
+            android:layout_toRightOf="@+id/lable_name"
+
+            android:layout_centerVertical="true"
+
+            android:textSize="15dp"
+
+
+            android:textColor="@color/black"
+
+            tools:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btn_refuse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lable_name"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="5dp"
+            android:text="取消"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lable_name"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/btn_refuse"
+            android:text="确定"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

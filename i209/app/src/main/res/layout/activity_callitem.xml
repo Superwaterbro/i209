@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:minHeight="60dp">
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_centerVertical="true"
+
+        tools:text="紧急联系人"
+        android:textStyle="italic"
+        android:id="@+id/name"
+
+        android:textSize="20dp"
+
+        android:textColor="@color/black"
+
+        tools:textColor="@color/black"/>
+
+
+
+
+
+    <TextView
+
+        tools:text="15011455911"
+
+        android:id="@+id/call"
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentRight="true"
+
+        android:layout_centerVertical="true"
+
+        android:textSize="15dp"
+
+        android:textColor="@color/black"
+
+        tools:textColor="@color/black"/>
+
+
+</RelativeLayout>
